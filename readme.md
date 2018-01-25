@@ -34,12 +34,41 @@ document.addEventListener("DOMContentLoaded", function() {
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-      --primary: #09F;
-      --text: #CCC;
-      --background: #080808;
-      --background-elevated: #222;
+      --primary: #CCC;
+      --text: #999;
+      --background: #222;
+      --background-elevated: #444;
    }
-   `
+   div.c-message.c-message--light.c-message--hover
+   {
+   color: #fff !important;
+   background-color: #222 !important;
+   }
+
+   div.c-message_attachment.c-message_attachment{
+   	color: #7c7b7b !important;
+   }
+
+   span.c-message_attachment__pretext{
+    color: #7c7b7b !important;
+   }
+
+   span.c-message__body,
+   a.c-message__sender_link,
+   span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
+   div.p-message_pane__foreword__description span
+   {
+       color: #afafaf !important;
+   }
+
+   pre.special_formatting{
+     background-color: #222 !important;
+     color: #8f8f8f !important;
+     border: solid;
+     border-width: 1 px !important;
+    
+   }
+    `
 
    // Insert a style tag into the wrapper view
    cssPromise.then(css => {
@@ -67,6 +96,8 @@ document.addEventListener("DOMContentLoaded", function() {
       });
    });
 });
+
+
 ```
 
 Notice that you can edit any of the theme colors using the custom CSS (for
