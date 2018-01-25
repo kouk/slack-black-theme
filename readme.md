@@ -34,10 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-      --primary: #CCC;
-      --text: #999;
-      --background: #222;
-      --background-elevated: #444;
+      --primary: #61AFEF;
+      --text: #ABB2BF;
+      --background: #282C34;
+      --background-elevated: #3B4048;
    }
    div.c-message.c-message--light.c-message--hover
    {
@@ -96,8 +96,6 @@ document.addEventListener("DOMContentLoaded", function() {
       });
    });
 });
-
-
 ```
 
 Notice that you can edit any of the theme colors using the custom CSS (for
