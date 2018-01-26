@@ -46,11 +46,15 @@ document.addEventListener("DOMContentLoaded", function() {
    }
 
    div.c-message_attachment.c-message_attachment{
-   	color: #7c7b7b !important;
+      color: #7c7b7b !important;
    }
 
    span.c-message_attachment__pretext{
-    color: #7c7b7b !important;
+      color: #7c7b7b !important;
+   }
+
+   span.c-member__display-name{
+      color: #a2a2a2 !important;
    }
 
    span.c-message__body,
@@ -58,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
    span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
    div.p-message_pane__foreword__description span
    {
-       color: #afafaf !important;
+      color: #afafaf !important;
    }
 
    pre.special_formatting{
