@@ -56,6 +56,14 @@ document.addEventListener("DOMContentLoaded", function() {
    span.c-member__display-name{
       color: #a2a2a2 !important;
    }
+   
+   hr.c-message_list__day_divider__line{
+    background: #abb2bf !important;
+   }
+
+   div.c-message_list__day_divider__label__pill{
+    background: #abb2bf !important;
+   }
 
    span.c-message__body,
    a.c-message__sender_link,
