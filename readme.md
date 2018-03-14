@@ -4,7 +4,7 @@ A darker, more contrasty, Slack theme.
 
 # Preview
 
-![Screenshot](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
+![Screenshot](https://user-images.githubusercontent.com/806101/27455546-826b3d88-5752-11e7-8a6b-87285b90eb3e.png)
 
 # Installing into Slack
 
@@ -46,31 +46,27 @@ document.addEventListener("DOMContentLoaded", function() {
    }
 
    div.c-message_attachment.c-message_attachment{
-      color: #7c7b7b !important;
+   	color: #7c7b7b !important;
    }
 
    span.c-message_attachment__pretext{
-      color: #7c7b7b !important;
+    color: #7c7b7b !important;
    }
 
-   span.c-member__display-name{
-      color: #a2a2a2 !important;
-   }
-   
    hr.c-message_list__day_divider__line{
     background: #abb2bf !important;
    }
 
    div.c-message_list__day_divider__label__pill{
     background: #abb2bf !important;
-   }
+   }   
 
    span.c-message__body,
    a.c-message__sender_link,
    span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
    div.p-message_pane__foreword__description span
    {
-      color: #afafaf !important;
+       color: #afafaf !important;
    }
 
    pre.special_formatting{
@@ -80,6 +76,17 @@ document.addEventListener("DOMContentLoaded", function() {
      border-width: 1 px !important;
     
    }
+
+   // NOT WORKING
+   // div.ql-editor.c-message__editor__input {
+   //  background: #2c2d30 !important;
+   // }
+   //
+   // div.c-message--light .c-message--highlight .c-message--editing .c-message--highlight_yellow_bg{
+   //  background: #3B4048 !important;
+   //  border: none !important;
+   // }
+
     `
 
    // Insert a style tag into the wrapper view
