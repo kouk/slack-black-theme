@@ -42,11 +42,26 @@ document.addEventListener("DOMContentLoaded", function() {
    div.c-message.c-message--light.c-message--hover
    {
    color: #fff !important;
-   background-color: #222 !important;
+    background-color: #3B4048 !important;
+   }
+
+   div.c-virtual_list__scroll_container {
+    background-color: #282C34 !important;
+   }
+   .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+    z-index: 0;
+   }
+
+   .comment .special_formatting_quote .content, .comment_body .dynamic_content_max_width{
+    color: #ABB2BF !important;
+   }
+
+   div.c-message:hover {
+    background-color: #3B4048 !important;
    }
 
    div.c-message_attachment.c-message_attachment{
-   	color: #7c7b7b !important;
+    color: #7c7b7b !important;
    }
 
    span.c-message_attachment__pretext{
