@@ -17,6 +17,8 @@ Find your Slack's application directory.
 
 Open up the most recent version (e.g. `app-2.5.1`) then open
 `resources\app.asar.unpacked\src\static\index.js`
+and
+`resources\app.asar.unpacked\src\static\ssb-interop.js`
 
 At the very bottom, add
 
@@ -52,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
     z-index: 0;
    }
 
-   .comment .special_formatting_quote .content, .comment_body .dynamic_content_max_width{
+   div.comment.special_formatting_quote.content,.comment_body{
     color: #ABB2BF !important;
    }
 
