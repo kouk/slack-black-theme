@@ -15,7 +15,22 @@ Find your Slack's application directory.
 * Linux: `/usr/lib/slack/` (Debian-based)
 
 
-Open up the most recent version (e.g. `app-2.5.1`) then open
+## Bash Script Install
+
+First, make this file executable with the following command:
+```bash
+chmod 700 makeSlackDark.sh
+```
+
+Next, execute the script:
+```bash
+./makeSlackDark.sh
+```
+
+
+## Manual Install
+
+Open up the most recent version (e.g. `app-3.1.1`) then open
 `resources\app.asar.unpacked\src\static\index.js`
 and
 `resources\app.asar.unpacked\src\static\ssb-interop.js`
