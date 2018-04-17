@@ -15,7 +15,7 @@ Find your Slack's application directory.
 * Linux: `/usr/lib/slack/` (Debian-based)
 
 
-## Bash Script Install
+## Bash Script Install (Mac/Linux)
 
 First, make this file executable with the following command:
 ```bash
