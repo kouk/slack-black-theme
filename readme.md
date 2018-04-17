@@ -161,22 +161,22 @@ NB: You'll have to do this every time Slack updates.
 
 Here's some example color variations you might like.
 
-## Default
-![Default](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
-```
---primary: #09F;
---text: #CCC;
---background: #080808;
---background-elevated: #222;
-```
-
-## One Dark
+## One Dark (_Default_)
 ![One Dark](https://user-images.githubusercontent.com/806101/27455546-826b3d88-5752-11e7-8a6b-87285b90eb3e.png)
 ```
 --primary: #61AFEF;
 --text: #ABB2BF;
 --background: #282C34;
 --background-elevated: #3B4048;
+```
+
+## Blackest
+![Default](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
+```
+--primary: #09F;
+--text: #CCC;
+--background: #080808;
+--background-elevated: #222;
 ```
 
 ## Low Contrast
