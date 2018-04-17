@@ -197,15 +197,6 @@ Here's some example color variations you might like.
 --background-elevated: #114;
 ```
 
-## Hot Dog Stand
-![Hot Dog Stand](https://cloud.githubusercontent.com/assets/7691630/24120351/4cca6182-0d82-11e7-8de8-7ab99dcde042.png)
-```
---primary: #000;
---text: #FFF;
---background: #F00;
---background-elevated: #FF0;
-```
-
 # Development
 
 `git clone` the project and `cd` into it.
